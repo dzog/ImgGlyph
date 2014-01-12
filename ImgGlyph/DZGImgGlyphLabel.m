@@ -58,7 +58,7 @@
                
             CGSize newSize = CGSizeMake(orig.size.width * (fontHeight / orig.size.height),fontHeight);
             
-            UIGraphicsBeginImageContext(newSize);
+            UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0f);
             [orig drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
             UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
             UIGraphicsEndImageContext();
