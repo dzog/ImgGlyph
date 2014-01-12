@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B16481618832417003924B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B16481518832417003924B4 /* Foundation.framework */; };
+		1B16481818832417003924B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B16481718832417003924B4 /* CoreGraphics.framework */; };
+		1B16481A18832417003924B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B16481918832417003924B4 /* UIKit.framework */; };
+		1B16482018832417003924B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B16481E18832417003924B4 /* InfoPlist.strings */; };
+		1B16482218832417003924B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B16482118832417003924B4 /* main.m */; };
+		1B16482618832417003924B4 /* DZGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B16482518832417003924B4 /* DZGAppDelegate.m */; };
+		1B16482F18832417003924B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B16482E18832417003924B4 /* XCTest.framework */; };
+		1B16483018832417003924B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B16481518832417003924B4 /* Foundation.framework */; };
+		1B16483118832417003924B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B16481918832417003924B4 /* UIKit.framework */; };
+		1B16484C18832443003924B4 /* DZGImgGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B16484618832443003924B4 /* DZGImgGlyphLabel.m */; };
+		1B16484D18832443003924B4 /* DZGImgGlyphTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B16484818832443003924B4 /* DZGImgGlyphTextView.m */; };
+		1B16484E18832443003924B4 /* DZGDictionaryStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B16484B18832443003924B4 /* DZGDictionaryStringParser.m */; };
+		1B16485218832470003924B4 /* DZGImgGlyphExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B16485018832470003924B4 /* DZGImgGlyphExampleViewController.m */; };
+		1B16485318832470003924B4 /* DZGImgGlyphExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485118832470003924B4 /* DZGImgGlyphExampleViewController.xib */; };
+		1B16485618832606003924B4 /* floppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485418832606003924B4 /* floppy.png */; };
+		1B16485718832606003924B4 /* floppy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485518832606003924B4 /* floppy@2x.png */; };
+		1B16485C18832626003924B4 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485818832626003924B4 /* circle.png */; };
+		1B16485D18832626003924B4 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485918832626003924B4 /* circle@2x.png */; };
+		1B16485E18832626003924B4 /* sq.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485A18832626003924B4 /* sq.png */; };
+		1B16485F18832626003924B4 /* sq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B16485B18832626003924B4 /* sq@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B16483218832417003924B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B16480A18832417003924B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B16481118832417003924B4;
+			remoteInfo = ImgGlyphExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B16481218832417003924B4 /* ImgGlyphExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgGlyphExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B16481518832417003924B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B16481718832417003924B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B16481918832417003924B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B16481D18832417003924B4 /* ImgGlyphExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImgGlyphExample-Info.plist"; sourceTree = "<group>"; };
+		1B16481F18832417003924B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B16482118832417003924B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B16482318832417003924B4 /* ImgGlyphExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImgGlyphExample-Prefix.pch"; sourceTree = "<group>"; };
+		1B16482418832417003924B4 /* DZGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZGAppDelegate.h; sourceTree = "<group>"; };
+		1B16482518832417003924B4 /* DZGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZGAppDelegate.m; sourceTree = "<group>"; };
+		1B16482D18832417003924B4 /* ImgGlyphExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgGlyphExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B16482E18832417003924B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1B16484518832443003924B4 /* DZGImgGlyphLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZGImgGlyphLabel.h; sourceTree = "<group>"; };
+		1B16484618832443003924B4 /* DZGImgGlyphLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZGImgGlyphLabel.m; sourceTree = "<group>"; };
+		1B16484718832443003924B4 /* DZGImgGlyphTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZGImgGlyphTextView.h; sourceTree = "<group>"; };
+		1B16484818832443003924B4 /* DZGImgGlyphTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZGImgGlyphTextView.m; sourceTree = "<group>"; };
+		1B16484A18832443003924B4 /* DZGDictionaryStringParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZGDictionaryStringParser.h; sourceTree = "<group>"; };
+		1B16484B18832443003924B4 /* DZGDictionaryStringParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZGDictionaryStringParser.m; sourceTree = "<group>"; };
+		1B16484F18832470003924B4 /* DZGImgGlyphExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZGImgGlyphExampleViewController.h; sourceTree = "<group>"; };
+		1B16485018832470003924B4 /* DZGImgGlyphExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZGImgGlyphExampleViewController.m; sourceTree = "<group>"; };
+		1B16485118832470003924B4 /* DZGImgGlyphExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DZGImgGlyphExampleViewController.xib; sourceTree = "<group>"; };
+		1B16485418832606003924B4 /* floppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floppy.png; sourceTree = "<group>"; };
+		1B16485518832606003924B4 /* floppy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floppy@2x.png"; sourceTree = "<group>"; };
+		1B16485818832626003924B4 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1B16485918832626003924B4 /* circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle@2x.png"; sourceTree = "<group>"; };
+		1B16485A18832626003924B4 /* sq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sq.png; sourceTree = "<group>"; };
+		1B16485B18832626003924B4 /* sq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sq@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B16480F18832417003924B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B16481818832417003924B4 /* CoreGraphics.framework in Frameworks */,
+				1B16481A18832417003924B4 /* UIKit.framework in Frameworks */,
+				1B16481618832417003924B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B16482A18832417003924B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B16482F18832417003924B4 /* XCTest.framework in Frameworks */,
+				1B16483118832417003924B4 /* UIKit.framework in Frameworks */,
+				1B16483018832417003924B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B16480918832417003924B4 = {
+			isa = PBXGroup;
+			children = (
+				1B16484418832443003924B4 /* ImgGlyph */,
+				1B16481B18832417003924B4 /* ImgGlyphExample */,
+				1B16481418832417003924B4 /* Frameworks */,
+				1B16481318832417003924B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B16481318832417003924B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B16481218832417003924B4 /* ImgGlyphExample.app */,
+				1B16482D18832417003924B4 /* ImgGlyphExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B16481418832417003924B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B16481518832417003924B4 /* Foundation.framework */,
+				1B16481718832417003924B4 /* CoreGraphics.framework */,
+				1B16481918832417003924B4 /* UIKit.framework */,
+				1B16482E18832417003924B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B16481B18832417003924B4 /* ImgGlyphExample */ = {
+			isa = PBXGroup;
+			children = (
+				1B16482418832417003924B4 /* DZGAppDelegate.h */,
+				1B16482518832417003924B4 /* DZGAppDelegate.m */,
+				1B16481C18832417003924B4 /* Supporting Files */,
+				1B16484F18832470003924B4 /* DZGImgGlyphExampleViewController.h */,
+				1B16485018832470003924B4 /* DZGImgGlyphExampleViewController.m */,
+				1B16485118832470003924B4 /* DZGImgGlyphExampleViewController.xib */,
+			);
+			path = ImgGlyphExample;
+			sourceTree = "<group>";
+		};
+		1B16481C18832417003924B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B16485818832626003924B4 /* circle.png */,
+				1B16485918832626003924B4 /* circle@2x.png */,
+				1B16485A18832626003924B4 /* sq.png */,
+				1B16485B18832626003924B4 /* sq@2x.png */,
+				1B16485418832606003924B4 /* floppy.png */,
+				1B16485518832606003924B4 /* floppy@2x.png */,
+				1B16481D18832417003924B4 /* ImgGlyphExample-Info.plist */,
+				1B16481E18832417003924B4 /* InfoPlist.strings */,
+				1B16482118832417003924B4 /* main.m */,
+				1B16482318832417003924B4 /* ImgGlyphExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B16484418832443003924B4 /* ImgGlyph */ = {
+			isa = PBXGroup;
+			children = (
+				1B16484518832443003924B4 /* DZGImgGlyphLabel.h */,
+				1B16484618832443003924B4 /* DZGImgGlyphLabel.m */,
+				1B16484718832443003924B4 /* DZGImgGlyphTextView.h */,
+				1B16484818832443003924B4 /* DZGImgGlyphTextView.m */,
+				1B16484918832443003924B4 /* Lib */,
+			);
+			name = ImgGlyph;
+			path = ../ImgGlyph;
+			sourceTree = "<group>";
+		};
+		1B16484918832443003924B4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1B16484A18832443003924B4 /* DZGDictionaryStringParser.h */,
+				1B16484B18832443003924B4 /* DZGDictionaryStringParser.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B16481118832417003924B4 /* ImgGlyphExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B16483E18832417003924B4 /* Build configuration list for PBXNativeTarget "ImgGlyphExample" */;
+			buildPhases = (
+				1B16480E18832417003924B4 /* Sources */,
+				1B16480F18832417003924B4 /* Frameworks */,
+				1B16481018832417003924B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImgGlyphExample;
+			productName = ImgGlyphExample;
+			productReference = 1B16481218832417003924B4 /* ImgGlyphExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B16482C18832417003924B4 /* ImgGlyphExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B16484118832417003924B4 /* Build configuration list for PBXNativeTarget "ImgGlyphExampleTests" */;
+			buildPhases = (
+				1B16482918832417003924B4 /* Sources */,
+				1B16482A18832417003924B4 /* Frameworks */,
+				1B16482B18832417003924B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B16483318832417003924B4 /* PBXTargetDependency */,
+			);
+			name = ImgGlyphExampleTests;
+			productName = ImgGlyphExampleTests;
+			productReference = 1B16482D18832417003924B4 /* ImgGlyphExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B16480A18832417003924B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DZG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = dzog;
+				TargetAttributes = {
+					1B16482C18832417003924B4 = {
+						TestTargetID = 1B16481118832417003924B4;
+					};
+				};
+			};
+			buildConfigurationList = 1B16480D18832417003924B4 /* Build configuration list for PBXProject "ImgGlyphExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B16480918832417003924B4;
+			productRefGroup = 1B16481318832417003924B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B16481118832417003924B4 /* ImgGlyphExample */,
+				1B16482C18832417003924B4 /* ImgGlyphExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B16481018832417003924B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B16485618832606003924B4 /* floppy.png in Resources */,
+				1B16485318832470003924B4 /* DZGImgGlyphExampleViewController.xib in Resources */,
+				1B16485F18832626003924B4 /* sq@2x.png in Resources */,
+				1B16485C18832626003924B4 /* circle.png in Resources */,
+				1B16482018832417003924B4 /* InfoPlist.strings in Resources */,
+				1B16485D18832626003924B4 /* circle@2x.png in Resources */,
+				1B16485718832606003924B4 /* floppy@2x.png in Resources */,
+				1B16485E18832626003924B4 /* sq.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B16482B18832417003924B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B16480E18832417003924B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B16482618832417003924B4 /* DZGAppDelegate.m in Sources */,
+				1B16482218832417003924B4 /* main.m in Sources */,
+				1B16484E18832443003924B4 /* DZGDictionaryStringParser.m in Sources */,
+				1B16484D18832443003924B4 /* DZGImgGlyphTextView.m in Sources */,
+				1B16485218832470003924B4 /* DZGImgGlyphExampleViewController.m in Sources */,
+				1B16484C18832443003924B4 /* DZGImgGlyphLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B16482918832417003924B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B16483318832417003924B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B16481118832417003924B4 /* ImgGlyphExample */;
+			targetProxy = 1B16483218832417003924B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B16481E18832417003924B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B16481F18832417003924B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B16483C18832417003924B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B16483D18832417003924B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B16483F18832417003924B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgGlyphExample/ImgGlyphExample-Prefix.pch";
+				INFOPLIST_FILE = "ImgGlyphExample/ImgGlyphExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B16484018832417003924B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgGlyphExample/ImgGlyphExample-Prefix.pch";
+				INFOPLIST_FILE = "ImgGlyphExample/ImgGlyphExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B16484218832417003924B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgGlyphExample.app/ImgGlyphExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgGlyphExample/ImgGlyphExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImgGlyphExampleTests/ImgGlyphExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B16484318832417003924B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImgGlyphExample.app/ImgGlyphExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgGlyphExample/ImgGlyphExample-Prefix.pch";
+				INFOPLIST_FILE = "ImgGlyphExampleTests/ImgGlyphExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B16480D18832417003924B4 /* Build configuration list for PBXProject "ImgGlyphExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B16483C18832417003924B4 /* Debug */,
+				1B16483D18832417003924B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B16483E18832417003924B4 /* Build configuration list for PBXNativeTarget "ImgGlyphExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B16483F18832417003924B4 /* Debug */,
+				1B16484018832417003924B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B16484118832417003924B4 /* Build configuration list for PBXNativeTarget "ImgGlyphExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B16484218832417003924B4 /* Debug */,
+				1B16484318832417003924B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B16480A18832417003924B4 /* Project object */;
+}
