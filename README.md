@@ -1,7 +1,7 @@
 ImgGlyph
 ========
 
-ImgGlyphLabel and ImgGlyphTextView are subclasses of (drop-in replacements for) UILabel and UITextView that allow for correctly sized in-line images (image glyphs) by replacing certain characters or strings with specified images. 
+ImgGlyphLabel and ImgGlyphTextView are subclasses of (drop-in replacements for) UILabel and UITextView that allow for font-sized in-line images (image glyphs) by replacing specified strings with specified images. 
 
 
 Purpose
@@ -12,7 +12,7 @@ iOS has no built-in support for including images in-line with text within UILabe
 
 Demo
 ---
-![ImgGlyph Example](http://i.imgur.com/H4yoFRM.png)
+![ImgGlyph Example](http://x.dzog.us/img/imgglyphex.png)
 
 Supported iOS & SDK Versions
 ----------------------------
