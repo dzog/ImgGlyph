@@ -33,8 +33,7 @@ For ease of use, ImgGlyph classes are configurable completely within Interface B
          Type: String  
         Value: {"str1":"img1.png", "str2":"img2.png"}  
 
-    Value is a dictionary-like string of key-value pairs in the form of key_string:image_name. Whitespace (outside of quotes) is ignored.  
-        Examples of Value parameter:   
+    Value is a dictionary-like string of key-value pairs in the form of key_string:image_name. Whitespace (outside of quotes) is ignored.  Examples of Value parameter:   
             - {"[save]":"floppy.png"}  
             - {"%c":"circle.png","%q":"sq.png"}  
             - { ":)" : "smile.png", ":p" : "razz.png", "o_O" : "wtf.png" }  
