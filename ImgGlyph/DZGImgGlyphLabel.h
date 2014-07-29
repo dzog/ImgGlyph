@@ -16,5 +16,7 @@
 
 @property NSDictionary *imgMap; //map of string -> image name
 @property NSString *imgMapString; //for setting in IB; form of {"%q","square.png", "[circle]","circle.png"}
+@property (nonatomic, assign) CGFloat imgXOffset;
+@property (nonatomic, assign) CGFloat imgYOffset;
 
 @end
