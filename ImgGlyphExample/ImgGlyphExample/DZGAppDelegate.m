@@ -15,11 +15,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
     
     DZGImgGlyphExampleViewController *vc = [DZGImgGlyphExampleViewController new];
-    [self.window addSubview:vc.view];
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
