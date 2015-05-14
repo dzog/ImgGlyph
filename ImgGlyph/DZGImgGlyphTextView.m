@@ -46,7 +46,7 @@
             
             NSTextAttachment *attachment = [[NSTextAttachment alloc] init];
             
-            UIImage *orig = [UIImage imageFromResource:imageName];
+            UIImage *orig = [UIImage imageNamed:imageName];
             
             // have to toggle selectable to YES to get NSFont in UITextView (otherwise it's nil)
             BOOL wasSelectable = self.selectable;

@@ -41,7 +41,7 @@
                         
             NSTextAttachment *attachment = [[NSTextAttachment alloc] init];
             
-            UIImage *orig = [UIImage imageFromResource:imageName];
+            UIImage *orig = [UIImage imageNamed:imageName];
             
             NSDictionary *charAttrs = [searchAttr attributesAtIndex:range.location effectiveRange:nil];
             UIFont *attrFont = [charAttrs valueForKey:@"NSFont"];

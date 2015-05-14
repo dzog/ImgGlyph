@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DZGImgGlyphExampleViewController">
@@ -14,9 +15,8 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[c] [f] [q]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk6-td-aAe" customClass="DZGImgGlyphLabel">
-                    <rect key="frame" x="43" y="45" width="235" height="72"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[c] [f] [q]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk6-td-aAe" customClass="DZGImgGlyphLabel">
+                    <rect key="frame" x="94" y="45" width="133" height="47"/>
                     <color key="backgroundColor" red="0.17647059261798859" green="0.39215689897537231" blue="0.62352943420410156" alpha="0.19" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="39"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -25,9 +25,8 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;[c]&quot;:&quot;circle.png&quot;,&quot;[q]&quot;:&quot;sq.png&quot;, &quot;[f]&quot;:&quot;floppy.png&quot;}"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="%zLab%z%q%zel%z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pl9-tw-MRR" customClass="DZGImgGlyphLabel">
-                    <rect key="frame" x="8" y="135" width="305" height="58"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%zLab%z%q%zel%z" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pl9-tw-MRR" customClass="DZGImgGlyphLabel">
+                    <rect key="frame" x="9" y="110" width="304" height="37"/>
                     <color key="backgroundColor" red="0.23137254900000001" green="0.25098039220000001" blue="0.2901960784" alpha="0.080000000000000002" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="31"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -36,9 +35,8 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;%z&quot;:&quot;circle.png&quot;,&quot;%q&quot;:&quot;sq.png&quot;}"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[c]Go!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffB-NQ-M1Z" customClass="DZGImgGlyphLabel">
-                    <rect key="frame" x="40" y="208" width="238" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[c]Go!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffB-NQ-M1Z" customClass="DZGImgGlyphLabel">
+                    <rect key="frame" x="146" y="168" width="26" height="11"/>
                     <color key="backgroundColor" red="0.23137254900000001" green="0.25098039220000001" blue="0.2901960784" alpha="0.080000000000000002" colorSpace="deviceRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
                     <color key="textColor" red="0.29803921570000003" green="0.74901960779999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,9 +45,8 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;[c]&quot;:&quot;circle.png&quot;}"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hN-SM-YIb" customClass="DZGImgGlyphLabel">
-                    <rect key="frame" x="40" y="254" width="238" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hN-SM-YIb" customClass="DZGImgGlyphLabel">
+                    <rect key="frame" x="101" y="199" width="116" height="28"/>
                     <color key="backgroundColor" red="0.23137254900000001" green="0.25098039220000001" blue="0.2901960784" alpha="0.080000000000000002" colorSpace="deviceRGB"/>
                     <attributedString key="attributedText">
                         <fragment content="La">
@@ -86,19 +83,8 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;%z&quot;:&quot;circle.png&quot;,&quot;%q&quot;:&quot;sq.png&quot;}"/>
                     </userDefinedRuntimeAttributes>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[save] SAVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEM-sO-3cF" customClass="DZGImgGlyphLabel">
-                    <rect key="frame" x="40" y="301" width="238" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.23137254900000001" green="0.25098039220000001" blue="0.2901960784" alpha="0.080000000000000002" colorSpace="deviceRGB"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
-                    <nil key="highlightedColor"/>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;[save]&quot;:&quot;floppy.png&quot;}"/>
-                    </userDefinedRuntimeAttributes>
-                </label>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75R-zv-boz" customClass="DZGImgGlyphTextView">
-                    <rect key="frame" x="11" y="346" width="297" height="134"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75R-zv-boz" customClass="DZGImgGlyphTextView">
+                    <rect key="frame" x="11" y="296" width="297" height="184"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <color key="textColor" red="0.29803921570000003" green="0.74901960779999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -108,10 +94,39 @@
                         <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;o&quot;:&quot;circle.png&quot;}"/>
                     </userDefinedRuntimeAttributes>
                 </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[save] SAVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEM-sO-3cF" customClass="DZGImgGlyphLabel">
+                    <rect key="frame" x="93" y="260" width="132" height="28"/>
+                    <color key="backgroundColor" red="0.23137254900000001" green="0.25098039220000001" blue="0.2901960784" alpha="0.080000000000000002" colorSpace="deviceRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imgMapString" value="{&quot;[save]&quot;:&quot;floppy.png&quot;}"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.93333339691162109" green="0.89411771297454834" blue="0.97254908084869385" alpha="1" colorSpace="deviceRGB"/>
-            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="2hN-SM-YIb" secondAttribute="centerX" constant="1" id="1g4-Zw-acQ"/>
+                <constraint firstItem="2hN-SM-YIb" firstAttribute="top" secondItem="ffB-NQ-M1Z" secondAttribute="bottom" constant="20" id="9yt-hC-D7f"/>
+                <constraint firstItem="ffB-NQ-M1Z" firstAttribute="top" secondItem="Pl9-tw-MRR" secondAttribute="bottom" constant="21" id="AfE-rW-5kp"/>
+                <constraint firstAttribute="centerX" secondItem="TEM-sO-3cF" secondAttribute="centerX" constant="1" id="Izi-vy-wjV"/>
+                <constraint firstAttribute="centerX" secondItem="Pl9-tw-MRR" secondAttribute="centerX" constant="-0.5" id="JCE-xO-va0"/>
+                <constraint firstAttribute="centerX" secondItem="gk6-td-aAe" secondAttribute="centerX" constant="-0.5" id="M2T-EQ-6e0"/>
+                <constraint firstItem="75R-zv-boz" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="11" id="Pxe-2K-aUS"/>
+                <constraint firstAttribute="bottom" secondItem="75R-zv-boz" secondAttribute="bottom" id="Rsp-3D-isf"/>
+                <constraint firstItem="Pl9-tw-MRR" firstAttribute="top" secondItem="gk6-td-aAe" secondAttribute="bottom" constant="18" id="Tpb-ey-TKd"/>
+                <constraint firstAttribute="trailing" secondItem="75R-zv-boz" secondAttribute="trailing" constant="12" id="cTm-tG-kjl"/>
+                <constraint firstItem="TEM-sO-3cF" firstAttribute="top" secondItem="2hN-SM-YIb" secondAttribute="bottom" constant="33" id="m9A-E9-qoC"/>
+                <constraint firstItem="gk6-td-aAe" firstAttribute="top" secondItem="1" secondAttribute="top" constant="45" id="oWC-4L-bgf"/>
+                <constraint firstItem="75R-zv-boz" firstAttribute="top" secondItem="TEM-sO-3cF" secondAttribute="bottom" constant="8" id="pEk-rq-2Si"/>
+                <constraint firstAttribute="centerX" secondItem="ffB-NQ-M1Z" secondAttribute="centerX" constant="1" id="twN-dL-OHF"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
